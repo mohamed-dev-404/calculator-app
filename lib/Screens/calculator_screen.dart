@@ -13,9 +13,9 @@ class CalculatorScreen extends StatefulWidget {
 
 class _CalculatorScreenState extends State<CalculatorScreen> {
   String screenValue =
-      ""; // consider as text fild to take the input & RHS in operations
-  String lHS = ""; // consider Saved number in cache  & LHS in operations
-  String cachOperator = ""; // consider the save operator in cahce
+      ''; // consider as text fild to take the input & RHS in operations
+  String lHS = ''; // consider Saved number in cache  & LHS in operations
+  String cachOperator = ''; // consider the save operator in cahce
   String?
       tempScreen; // consider the screen value that will be shown but cannot modified by user
   bool operatorLastClicked = false;
@@ -36,7 +36,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   width: double.infinity,
                   child: Text(
                     tempScreen == null ? screenValue : tempScreen!,
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: AppColors.white,
                       fontSize: 48,
                       fontWeight: FontWeight.w500,
@@ -82,7 +82,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                               ],
                             ),
                           ),
-                          SizedBox(height: 6),
+                          const SizedBox(height: 6),
                           Expanded(
                             child: Row(
                               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -158,7 +158,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                               ],
                             ),
                           ),
-                          SizedBox(height: 8),
+                          const SizedBox(height: 8),
                           Expanded(
                             child: Row(
                               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -274,7 +274,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
 
     setState(() {});
     await Future.delayed(
-      Duration(milliseconds: 100),
+      const Duration(milliseconds: 100),
     ); //for refresh the digit (indicate to the user that the operator is clicked)
 
     tempScreen = lHS;
