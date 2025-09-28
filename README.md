@@ -1,16 +1,53 @@
-# calculator
+# 📱Calculator App  
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-Stable-blue?logo=flutter)](https://flutter.dev/)  
+[![Dart](https://img.shields.io/badge/Dart-Language-0175C2?logo=dart)](https://dart.dev/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 
-## Getting Started
+A **modern and minimal calculator application** built with **Flutter**.  
+It offers a clean interface, responsive design, and supports all essential arithmetic operations.  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔢 Perform **basic operations**: Addition (+), Subtraction (-), Multiplication (×), Division (÷)  
+- 🧮 Handle **decimal numbers** with precision  
+- ↩️ Use **Backspace** to remove last entered digit  
+- 🧹 **AC button** to clear all inputs instantly  
+- 🎨 Beautiful **custom color theme**  
+- 📱 **Responsive UI** that adapts to various screen sizes  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📸 Demo  
+
+*(Soon)*  
+
+---
+
+## 🔮 Future Extensions   
+
+- ⏳ Add **percentage (%)** operator  
+- ⏳ Add **scientific functions** (sin, cos, log, etc.)  
+- ⏳ Enable **calculation history**  
+- ⏳ Add **light & dark mode toggle**  
+
+---
+
+## 🤝 Contributing  
+
+*Contributions are welcome!* 
+- Fork the repository  
+- Create a feature branch  
+- Submit a pull request 🚀  
+
+---
+
+## 📜 License  
+
+This project is licensed under the [MIT License](LICENSE).  
+
+---
+
+**Feel free to ⭐ the repo and follow for more Flutter projects.** 
