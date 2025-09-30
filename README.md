@@ -2,7 +2,9 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-Stable-blue?logo=flutter)](https://flutter.dev/)  
 [![Dart](https://img.shields.io/badge/Dart-Language-0175C2?logo=dart)](https://dart.dev/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/mohamed-dev-404/calculator-app/pulls) 
+![GitHub Repo stars](https://img.shields.io/github/stars/mohamed-dev-404/calculator-app?style=social)  
 
 A **modern and minimal calculator application** built with **Flutter**.  
 It offers a clean interface, responsive design, and supports all essential arithmetic operations.  
